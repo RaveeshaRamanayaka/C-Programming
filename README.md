@@ -1,2 +1,2 @@
 # C-Programming
-This contains about C programming language
+This contains my self studies in C programming language
