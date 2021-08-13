@@ -7,9 +7,9 @@ int main()
     float w;
     float h;
 
-    printf("Enter Weight in KG: ");
+    printf("Enter Weight in kilogram: ");
     scanf(" %f",&w);
-    printf("Enter Height in M: ");
+    printf("Enter Height in meter: ");
     scanf(" %f",&h);
 
     printf("BMI :  %.2f: ",(w/pow(h,2))    );
