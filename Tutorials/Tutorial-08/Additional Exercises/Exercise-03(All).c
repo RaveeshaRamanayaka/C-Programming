@@ -1,56 +1,64 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+//#include <string.h>
+#include <assert.h>
 
-float calcFinalMark(int a,int b);//i)function initialization
-char findGrade(float a);
-void printDetails(char a[],float b, char c);
+float calcFinalMark(float assignmentMark, float paperMark){
+	float finalMark;
+	assignmentMark = assignmentMark * 30 / 100;
+	paperMark = paperMark * 70 / 100;
+	finalMark = assignmentMark + paperMark;
+	return finalMark;
+}
+
+char findGrades(float finalMark){
+	char grade = 'F';
+	if (finalMark >= 75)
+		grade = 'A';
+	else if (finalMark >= 60)
+		grade = 'B';
+	else if (finalMark >= 50)
+		grade = 'C';
+	return grade;
+}
+
+void printDetails(char name[],float assignmentMark, float paperMark){
+	float finalMark;
+	char grade;
+	
+	assert(calcFinalMark(50, 50) == 50);
+	finalMark = calcFinalMark(assignmentMark, paperMark);
+	
+	assert(findGrades(50) == 'C');
+	grade = findGrades(finalMark);
+	
+	printf("\n\t\tName\t\tFinal Mark\t\tGrade\t\t\n");
+	printf("\t\t----\t\t----------\t\t-----\t\t\n");
+	printf("\t\t%s\t\t%.2f\t\t\t%c\t\t\n", name,finalMark, grade);
+}
+
+
 
 int main()
 {
-    char nm[20];
-    int am;
-    int pm=0;
-
-    for(int i=0;i<5;i++){//loop for 5 students
-
-    printf("Enter Name: ");
-    scanf("%s",nm);
-    printf("Assignment Mark: ");
-    scanf("%d",&am);
-
-    if(am>50){ //use can only enter paper mark if assignment mark is above 50.
-        printf("Paper Mark: ");
-        scanf("%d",&pm);
-    }
-
-    float d = calcFinalMark(am,pm);
-    char g = findGrade(d);
-
-    printDetails(nm ,d ,g);
-
-
-    }
-    return 0;
-}
-
-
-float calcFinalMark(int a,int b){//return Final mark
-    return( a*0.3 +b*0.7   );
-}
-
-char findGrade(float a){//Return Grade
-    char z;
-    if(a>=75)
-        z = 'A';
-    else if(a>=60)
-        z = 'B';
-    else if(a>=50)
-        z = 'C';
-    else
-        z = 'F';
-    return(z);
-}
-
-void printDetails(char a[],float b, char c){//printing values
-    printf("Name: %s Final Mark: %.1f Grade: %c\n",a ,b ,c);
+	float assignmentMark = 0, paperMark = 0;
+	char name[20];
+	int count = 0;
+	
+	for (count = 1; count <= 5; count++){
+		printf("Name : ");
+		scanf(" %s", name);
+		printf("Assignment Mark (out of 100) : ");
+		scanf("%f", &assignmentMark);
+		if (assignmentMark >= 50) {
+			printf("Paper Mark (out of 100) : ");
+			scanf("%f", &paperMark);
+		}
+		else
+			paperMark = 0;
+		
+		printDetails(name, assignmentMark, paperMark);
+		printf("\n");
+	}
+	
+	return 0;
 }
