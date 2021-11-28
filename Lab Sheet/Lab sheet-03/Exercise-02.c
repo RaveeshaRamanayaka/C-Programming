@@ -11,6 +11,8 @@ int main()
         n--;
     }
 
+    
+    
     printf("%d",s);
     return 0;
 }
