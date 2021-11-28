@@ -10,9 +10,7 @@ int main()
         s*=n;
         n--;
     }
-
-    
-    
+ 
     printf("%d",s);
     return 0;
 }
