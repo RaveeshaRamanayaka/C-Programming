@@ -6,7 +6,8 @@ int main(void)
 	int rate[5] = {0};
 	int rating = 1; /* rating to be enterd by user
 			   rating = 1 for begin while loop
-					 */
+			*/
+	
 	int i; // counter control variable
 	
 	// begin while
