@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<string.h>  // String header file
 
+
+
+
 int main()
 {
 	char  empCat;
