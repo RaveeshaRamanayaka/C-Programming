@@ -1,7 +1,3 @@
-/* 2020 June
- * Online Exam 3
- * Version B
- */ 
 
 #include<stdio.h>
 
