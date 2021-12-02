@@ -1,7 +1,4 @@
-/* 2020 June
- * Online Exam 3
- * Version D
- */ 
+Version D 
 
 #include<stdio.h>
 
