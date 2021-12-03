@@ -2,8 +2,6 @@
 
 #include<stdio.h>
 
-// Online Test1 - Version C
-
 // main function
 int main()
 {	
