@@ -1,3 +1,5 @@
+// Version B
+
 #include<stdio.h>
 
 int main (void)
