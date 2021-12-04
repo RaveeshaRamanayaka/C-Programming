@@ -1,3 +1,5 @@
+// Version A - part b
+
 #include<stdio.h>
 
 //function prototype
