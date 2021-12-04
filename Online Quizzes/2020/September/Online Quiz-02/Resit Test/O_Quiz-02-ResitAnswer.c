@@ -1,4 +1,5 @@
-//Online Exam 02 - Resit
+// Online Exam 02 - Resit
+
 #include<stdio.h>
 #include<assert.h>
 
