@@ -1,3 +1,5 @@
+// Version C - Part b
+
 #include<stdio.h>
 
 // function prototype
