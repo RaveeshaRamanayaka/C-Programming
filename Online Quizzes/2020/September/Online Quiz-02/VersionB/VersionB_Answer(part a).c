@@ -1,4 +1,4 @@
-// Online Test2 - Version B - a
+// Version B
 
 #include<stdio.h>
 
