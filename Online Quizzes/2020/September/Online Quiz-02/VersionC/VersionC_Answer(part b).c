@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-// Online Test2 - Version C - b
-
 // function prototype
 float calculateWeeklySalary(int grade, float hrsWorked);
 void printDetails(int grade, float hrsWorked, float salary);
