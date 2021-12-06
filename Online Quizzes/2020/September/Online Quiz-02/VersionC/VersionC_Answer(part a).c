@@ -1,3 +1,5 @@
+// Version C - Part a
+
 #include<stdio.h>
 
 // main function
