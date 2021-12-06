@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-// Online Test2 - Version C - a
-
 // main function
 int main(void)
 {
