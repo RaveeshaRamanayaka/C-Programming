@@ -1,4 +1,3 @@
-//Online Quiz 03
 //Version A
 
 #include<stdio.h>
