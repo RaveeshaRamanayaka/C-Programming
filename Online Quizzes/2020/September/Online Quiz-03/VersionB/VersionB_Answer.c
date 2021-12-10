@@ -1,4 +1,4 @@
-//Version B
+// Version B
 
 #include<stdio.h>
 
