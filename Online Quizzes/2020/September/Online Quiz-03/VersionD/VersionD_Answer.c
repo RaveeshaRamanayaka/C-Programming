@@ -1,4 +1,6 @@
-Version D // #include<stdio.h>
+// Version D 
+
+#include<stdio.h>
 
 int main(void)
 {
