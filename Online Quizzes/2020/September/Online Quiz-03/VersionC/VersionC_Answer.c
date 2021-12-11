@@ -1,4 +1,4 @@
-// Online Test3 - Version C
+// Version C
 
 #include<stdio.h>
 
