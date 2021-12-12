@@ -1,6 +1,4 @@
-// Version E
-
-//descending check
+// Version E - descending Order
 
 #include<stdio.h>
 
