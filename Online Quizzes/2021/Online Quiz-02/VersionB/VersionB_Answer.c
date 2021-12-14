@@ -40,3 +40,4 @@ int main (void)
 	printf("Total Price to pay Rs : %.2f\n" , totalPrice);
 	
 	return 0;
+}
