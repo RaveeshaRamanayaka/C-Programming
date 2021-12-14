@@ -1,3 +1,5 @@
+// Version B
+
 #include<stdio.h>
 
 int main (void)
@@ -38,4 +40,3 @@ int main (void)
 	printf("Total Price to pay Rs : %.2f\n" , totalPrice);
 	
 	return 0;
-}
