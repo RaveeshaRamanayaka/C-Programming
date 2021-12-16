@@ -1,3 +1,5 @@
+// Version B
+
 //importing libraries
 #include<stdio.h>
 
@@ -47,5 +49,4 @@ int main(void)
 	
 	//setting the return value 0
 	return 0;
-}
-//ending main method
+}//ending main method
