@@ -1,3 +1,5 @@
+// Version A
+
 #include<stdio.h>
 
 //define structure
