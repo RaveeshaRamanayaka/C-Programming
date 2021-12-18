@@ -1,3 +1,5 @@
+// Version B
+
 #include<stdio.h>
 
 //declare the structure
