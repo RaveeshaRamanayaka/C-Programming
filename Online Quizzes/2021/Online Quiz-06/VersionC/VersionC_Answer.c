@@ -1,3 +1,5 @@
+// Version C
+
 #include<stdio.h>
 
 //declaring structure
