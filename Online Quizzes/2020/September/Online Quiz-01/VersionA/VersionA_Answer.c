@@ -9,7 +9,6 @@ int main (void)
 	char accBasis , cardType;
 	float amount , discount;
 	
-	
 	//initiating sentinal controlled loop
 	while (typeOfRoom != -1)
 	{
