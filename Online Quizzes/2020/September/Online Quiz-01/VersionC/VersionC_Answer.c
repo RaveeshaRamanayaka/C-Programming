@@ -62,7 +62,7 @@ int main()
     // calculating total with adding toppings
     while (extraToppings == 'y' || extraToppings == 'Y') {
     	printf("Do you need any extra toppings ( y/n) : ");
-    	scanf(" %c", &extraToppings);							// input Topping Option
+    	scanf(" %c", &extraToppings);			// input Topping Option
     	
     	if (extraToppings == 'y' || extraToppings == 'Y'){
     		printf("\tInput your option : ");
