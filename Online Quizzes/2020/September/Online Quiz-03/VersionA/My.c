@@ -1,3 +1,5 @@
+// Version A
+
 /*Write a C program to store numbers in an array called numArr. The series of numbers should be
 entered through keyboard and assume that the user enters only 6 numbers. Go through the array
 and find the store the odd and even numbers in two different arrays called oddNum and evenNum
